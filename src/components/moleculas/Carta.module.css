@@ -1,0 +1,24 @@
+.contenedor{
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.acciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.acciones>a{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.acciones>a:hover{
+    background: green;
+}
